@@ -1,0 +1,54 @@
+/* .login-page{
+    background-color: #6f00ff !important;
+  } */
+
+  .form-container{
+    box-shadow: 0 0 10px #462e8e66;
+
+  }
+  
+  .login-page .title{
+    text-shadow: 0 0 3px #462e8e66;
+  }
+
+  .login-page label{
+    text-shadow: 0 0 2px #462e8e66;
+
+  }
+  
+  .login-page .btn-primary {
+  background-color: #3700ffcf;
+  box-shadow: 0 0 10px #462e8e66;
+  }
+  
+  .login-page .text-primary{
+    color: #3700ffcf !important;
+  }
+
+  .login-btn{
+    transition: 0.3s ease all;
+    margin: 10px 0;
+  }
+
+  .login-btn:hover{
+    background-color: #3700ffb6;
+  }
+
+  .login-page .forgit-btn,
+  .login-page .signup-btn{
+    text-shadow: 0 0 2px #462e8e66;
+  }
+
+
+  /* ////////////////////////////////////////////// */
+  /* register page */
+
+  .inputs{
+    margin: 0 0 10px 0;
+  }
+
+  
+
+.mb-3 {
+    margin-bottom: 10px !important;
+}
