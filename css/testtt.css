@@ -410,7 +410,7 @@ font-size: 10px;
 
 .chats-content{
   /* background-color: yellowgreen; */
-  background-color: #fff;
+  /* background-color: #fff; */
   height: 100%;
   border-radius: 15px;
   margin: 0 10px;
@@ -431,7 +431,7 @@ font-size: 10px;
 }
 
 .chats-content .chat-content-header .open-chat-img{
-  background-color: #4cd137;
+  /* background-color: #4cd137; */
   width: 55px;
   height: 55px;
   border-radius: 50%;
@@ -497,11 +497,15 @@ right: 20px;
   background-color: #9f69e4ad;
 }
 
+.main{
+  /* background-color: #4cd137; */
+  height: 73.5vh;
+}
 
 .chat-massage-container{
   /* background-color:#4cd137 ; */
   max-width: 98%;
-  height: 75vh;
+  height: 73.5vh;
   margin:10px 5px;
   padding: 15px;
   border-radius: 10px;
@@ -558,31 +562,44 @@ text-align: right;
 .sent-bar{
   /* background-color: #c23616; */
   width: 98%;
-  height: 6vh;
+  height: 8.5vh;
   margin:10px 5px;
+  margin-bottom: 100px;
   padding: 0;
   border-radius: 10px;
   box-shadow: 0 0 10px #462e8e49;
 }
 
 .sent-bar form{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: yellow; */
   padding: 0;
-  margin: 0;
-  
-}
+  margin: 5px ;
+  height:fit-content;
+  }
 
 .sent-bar form .massage-input{
   /* background-color:#4cd137; */
+  background-color: transparent;
   display: inline-block;
-  padding: 10px 15px;
+  padding: 3px 15px;
   border: 0;
   border-radius: 8px;
-  /* margin: 3px 0 3px 0  ; */
+  margin: 3px 0 3px 0  ;
   margin:0 ;
   outline: none;
-  width: 90%;
-  height: 6vh;
+  width: 92%;
+  min-height: 3vh;
+  max-height: 8vh;
+  overflow-y: auto ; 
+  box-sizing: border-box;
 }
+
+
+
+
 
 .sent-bar form .send-btn{
   display: inline-block;
