@@ -11,6 +11,10 @@
     text-shadow: 0 0 3px #462e8e66;
   }
 
+  .input-cont{
+    text-align: left;
+  }
+
   .login-page label{
     text-shadow: 0 0 2px #462e8e66;
 
@@ -36,6 +40,7 @@
 
   .login-page .forgit-btn,
   .login-page .signup-btn{
+    border: 0;
     text-shadow: 0 0 2px #462e8e66;
   }
 
@@ -43,11 +48,7 @@
   /* ////////////////////////////////////////////// */
   /* register page */
 
-  .inputs{
-    margin: 0 0 10px 0;
-  }
 
-  
 
 .mb-3 {
     margin-bottom: 10px !important;
